@@ -1,0 +1,17 @@
+body{
+    margin: 0 !important;
+    font-family: sans-serif;
+    background-image: url("https://images.techhive.com/images/article/2015/09/cars_parked_underground_garage-100616290-orig.jpg");
+}
+
+.container {
+    margin-top: 6%;
+    padding: 4%;
+    background-color: #99c2ff;
+    border-style: solid;
+    border-width: 5px;
+}
+
+a {
+    text-decoration: none;
+}
