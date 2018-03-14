@@ -44,7 +44,7 @@
             echo "Parking space No. $number has been successfully booked from $start to $end";
           }
           else{
-            echo "Error: Something wen wrong, you resercation is not saved, please try again!";
+            echo "Error: Something went wrong, you reservation is not saved, please try again!";
           }
         }
         else{
