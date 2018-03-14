@@ -31,8 +31,7 @@
 
             if(mysqli_num_rows($sql) > 0){
                 while($row = mysqli_fetch_array($sql)){
-                    $data[] = $row['NR_MIEJSCA']." ".$row['START']." ".$row['KONIEC']."<br><br>";
-                    $data[] = $row['NR_MIEJSCA']." ".$row['START']." ".$row['KONIEC']."<br><br>";
+                    $data[] = $row['NR_MIEJSCA']." from ".$row['START']." to ".$row['KONIEC']."<br><br>";
                 }
             }
             print json_encode($data);
